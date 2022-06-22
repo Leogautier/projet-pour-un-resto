@@ -1,48 +1,86 @@
 <!doctype html>
 <html lang="fr">
-  <head>
+
+<head>
     <title>Accueil</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-        <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="color.css">
 </head>
-<body>
+
+<body class="bg-beige">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-blue">
+            <div class="container-fluid">
+                <img src="/img/kebab.png" width="90" height="54" class="d-inline-block align-text-top">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav ms-auto ">
+                        <li class="nav-item">
+                            <a class="nav-link active text-beige" aria-current="page " href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-beige" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-beige" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled text-beige" href="#" tabindex="-1"
+                                aria-disabled="true">Disabled</a>
+                        </li>
+                        <button type="button" class="btn  px-4 btn-outline-primary">Primary</button>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
     <main>
+        <div class="text-center my-5">
+            <h1>Kannibal Kebab</h1>
+        </div>
+        <div class="container">
+            <div class="row d-flex align-items-center p-4">
+                <div class="col-lg-8">
+                    <h2 class="text-secondary h1">La devanture de notre restaurant </h2>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+                        voluptate ipsam, odit, officiis deleniti doloribus, enim earum hic nulla minima voluptas magni.
+                        Sunt velit atque, inventore assumenda reiciendis earum dolor.</p>
+                </div>
+                <img src="/img/deventure.jpg" class="col-lg-4">
+            </div>
+        </div>
         <hr class="container border-secondary">
-      <div class="container">
-        <div class="row d-flex align-items-center">
-          <div class="col-lg-8">
-            <h2 class="text-secondary h1">First featurette heading. It’ll blow your mind.</h2>
-            <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptate ipsam, odit, officiis deleniti doloribus, enim earum hic nulla minima voluptas magni. Sunt velit atque, inventore assumenda reiciendis earum dolor.</p>
-          </div>
-          <img class="col-lg-4" src="https://via.placeholder.com/500">
+        <div class="container">
+            <div class="row d-flex align-items-center p-4">
+                <div class="col-lg-8 order-lg-1">
+                    <h2 class="text-secondary h1">Nos cuisine </h2>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+                        voluptate ipsam, odit, officiis deleniti doloribus, enim earum hic nulla minima voluptas magni.
+                        Sunt velit atque, inventore assumenda reiciendis earum dolor.</p>
+                </div>
+                <img src="/img/cuisine.jpg" class="col-lg-4">
+            </div>
         </div>
-      </div>
-      <hr class="container border-secondary">
-      <div class="container">
-        <div class="row d-flex align-items-center">
-          <div class="col-lg-8 order-lg-1">
-            <h2 class="text-secondary h1">First featurette heading. It’ll blow your mind.</h2>
-            <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptate ipsam, odit, officiis deleniti doloribus, enim earum hic nulla minima voluptas magni. Sunt velit atque, inventore assumenda reiciendis earum dolor.</p>
-          </div>
-          <img class="col-lg-4 order-lg-0" src="https://via.placeholder.com/500">
+        <hr class="container border-secondary">
+        <div class="container">
+            <div class="row d-flex align-items-center p-4">
+                <div class="col-lg-8">
+                    <h2 class="text-secondary h1">Le chef de cuisine</h2>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+                        voluptate ipsam, odit, officiis deleniti doloribus, enim earum hic nulla minima voluptas magni.
+                        Sunt velit atque, inventore assumenda reiciendis earum dolor.</p>
+                </div>
+             <img src="/img/cuisinier.jfif" class="col-lg-4">
+            </div>
         </div>
-      </div>
-      <hr class="container border-secondary">
-      <div class="container">
-        <div class="row d-flex align-items-center">
-          <div class="col-lg-8">
-            <h2 class="text-secondary h1">First featurette heading. It’ll blow your mind.</h2>
-            <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptate ipsam, odit, officiis deleniti doloribus, enim earum hic nulla minima voluptas magni. Sunt velit atque, inventore assumenda reiciendis earum dolor.</p>
-          </div>
-          <img class="col-lg-4" src="https://via.placeholder.com/500">
-        </div>
-      </div>
-      <hr class="container border-secondary">
     </main>
-    <footer class="text-center text-lg-start bg-dark text-white">
+    <footer class="text-center text-lg-start bg-blue text-white">
         <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
             <div class="me-5 d-none d-lg-block">
                 <span>Get connected with us on social networks:</span>
@@ -141,4 +179,5 @@
         integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
         crossorigin="anonymous"></script>
 </body>
+
 </html>

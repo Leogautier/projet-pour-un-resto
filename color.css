@@ -1,23 +1,26 @@
 .bg-blue {
-    background-color: #003049;
+    background-color: #003049 !important;
 }
 
 .bg-beige {
-    background-color: #EAE2B7;
+    background-color: #EAE2B7 !important;
 }
 
 .bg-red {
-    background-color: #D62828;
+    background-color: #D62828 !important;
 }
 
 .text-blue {
-    color: #003049;
+    color: #003049 !important;
 }
 
 .text-beige {
-    color: #EAE2B7;
+    color: #EAE2B7 !important;
 }
 
 .text-red {
-    color: #D62828;
+    color: #D62828 !important;
+}
+.police-decriture{
+
 }
