@@ -16,19 +16,50 @@
     </header>
     <main>
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-2">
-                    
-                </div>
-                <div class="col-2">
-                    
+            <div class="row justify-content-center my-5">
+                <div class="col-4 d-flex flex-column align-items-center">
+                  <h2 class="text-blue fs-1">Horaires</h2>
+                  <hr class="w-75 h-25">
+                    <ul class="list-group list-group-flush fs-4 w-100">
+                      <li class="list-group-item bg-beige text-blue d-flex justify-content-between">Lundi:<span>8:00-16-30</span></li>
+                      <li class="list-group-item bg-beige text-blue d-flex justify-content-between">Mardi:<span>8:00-16-30</span></li>
+                      <li class="list-group-item bg-beige text-blue d-flex justify-content-between">Mercredi:<span>8:00-16-30</span></li>
+                      <li class="list-group-item bg-beige text-blue d-flex justify-content-between">Jeudi:<span>8:00-16-30</span></li>
+                      <li class="list-group-item bg-beige text-blue d-flex justify-content-between">Vendredi:<span>8:00-16-30</span></li>
+                      <li class="list-group-item bg-beige text-blue d-flex justify-content-between">Samedi:<span>8:00-16-30</span></li>
+                      <li class="list-group-item bg-beige text-blue d-flex justify-content-between">Dimanche:<span>8:00-16-30</span></li>
+                    </ul>
                 </div>
             </div>
-            <div class="row">
-                
-            </div>
-            <div class="row">
-                
+            <div class="row my-5">
+                <div class="col-6">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d707980.539284101!2d5.1660863!3d46.1198934!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c7167e86c56a3%3A0xf4ddb2a5f247413b!2sFistini%C3%A8re%20chez%20Lilou!5e0!3m2!1sfr!2sfr!4v1655884233980!5m2!1sfr!2sfr"
+                  width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-6">
+                  <form>
+                    <div class="d-flex gap-5 mb-3">
+                      <div>
+                        <label for="lastname" class="form-label">Nom:</label>
+                        <input id="lastname" type="text" class="form-control" placeholder="Nom">
+                      </div>
+                      <div>
+                        <div>
+                          <label for="firstname" class="form-label">Prénom:</label>
+                          <input id="firstname" type="text" class="form-control" placeholder="Prénom">
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <label for="email" class="form-label">Email:</label>
+                      <input id="email" type="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div>
+                      <label for="message" class="form-label">Message:</label>
+                      <textarea id="message" class="form-control" rows="3"></textarea>
+                    </div>
+                  </form>
+                </div>
             </div>
         </div>
     </main>
