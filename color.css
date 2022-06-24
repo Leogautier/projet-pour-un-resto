@@ -21,10 +21,12 @@
 .text-red {
     color: #D62828 !important;
 }
+
 .test {
     color: #FFFFFF;
     text-decoration: none;
-  }
-  .taille{
+}
+
+.taille{
     height: 100vh;
-  }
+}
